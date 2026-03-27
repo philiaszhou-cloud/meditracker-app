@@ -1,35 +1,39 @@
-# Meditracker App
+# MediTracker App Documentation
 
-## Project Overview
-The Meditracker App is a health management application designed to help users track their medication schedules, manage their health records, and get reminders for taking their medications. It aims to enhance medication adherence and improve overall health management.
+## Overview
+MediTracker is an Android application designed to help users keep track of their medication schedules and enhance their adherence to prescribed treatments.
 
 ## Features
-- Medication tracking with reminders
-- Health record management
-- User-friendly interface
-- Data visualization for health statistics
-- Secure login and user authentication
+- **Medication Reminders**: Set reminders for taking medicine at specific times.
+- **Tracking History**: Log past medications taken and missed doses.
+- **User-Friendly Interface**: Easy navigation with intuitive controls.
+- **Health Reports**: Generate reports to share with healthcare providers.
+- **Customization**: Customize medication schedules based on personal needs.
 
 ## Tech Stack
-- **Frontend:** React.js
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
-- **Authentication:** JSON Web Tokens (JWT)
+- **Language**: Kotlin
+- **Framework**: Android SDK
+- **Database**: Room Persistence Library
+- **API**: Retrofit for network calls
+- **Mobile Architecture**: MVVM architecture pattern
 
-## Getting Started
-1. **Clone the repository:**  
-   `git clone https://github.com/philiaszhou-cloud/meditracker-app.git`
+## Getting Started Guide
+1. **Clone the Repository**: 
+   ```
+   git clone https://github.com/philiaszhou-cloud/meditracker-app.git
+   ```
+2. **Open the Project**: Open the cloned project in Android Studio.
+3. **Install Dependencies**: Sync the project to download necessary dependencies.
+4. **Build the Application**: Run the application on an emulator or a physical device.
 
-2. **Navigate to the project directory:**  
-   `cd meditracker-app`
+## Usage Instructions
+- **Setting Up**: Upon first launch, configure your medication needs.
+- **Adding Medications**: Use the "Add Medication" feature to start entering information.
+- **Receiving Reminders**: Ensure notifications are enabled to receive timely reminders.
+- **Tracking Your Progress**: Check your medication history within the app for a comprehensive overview.
 
-3. **Install the dependencies:**  
-   `npm install`
+## Contributing
+Contributors are welcome! Please fork this repository and submit a pull request with your enhancements and fixes.
 
-4. **Run the application:**  
-   `npm start`
-
-5. **Open your web browser and visit:**  
-   `http://localhost:3000`
-
-Enjoy using the Meditracker App!
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
